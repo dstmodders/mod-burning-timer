@@ -1,4 +1,4 @@
-# mod-burning-timer
+# mod-burning-timer (Version 1.1.3)
 Mod for the game Don't Starve Together to display fire durations to clients. 
 
 # Overview
