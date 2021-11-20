@@ -41,10 +41,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Adjust percentage to be more on par with Klei's fuel system
 
-### Fixed
-
-- Fix all known bugs
-
 ## 1.0.2 - 2021-01-28
 
 ### Fixed
@@ -54,9 +50,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## 1.0.1 - 2021-01-28
 
-### Fixed
+### Changed
 
-- Fix a few potential crashes
+- Adjust functions and add more checkers to avoid crashes which might occur
 
 ## 1.0.0 - 2021-01-24
 
