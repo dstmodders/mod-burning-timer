@@ -59,13 +59,19 @@ local lanternLightTime     = _G.mod_burningTimer.lanternLightTime
 local lanternIntensityMin  = _G.mod_burningTimer.lanternIntensityMin
 local lanternIntensityDiff = _G.mod_burningTimer.lanternIntensityDiff
 
--- Copied from 'Item Info' mod made by 'Ryuu' to fix a bug which may happen in some cases, credit goes to Ryuu
+-- Credit for testing this in their own mod goes to Ryuu
 AddGlobalClassPostConstruct("entityscript","EntityScript", function(self)
 	local oldRegisterComponentActions = self.RegisterComponentActions
+	local oldUnregisterComponentActions = self.UnregisterComponentActions
 
 	self.RegisterComponentActions = function(self, name)
 		if not _G.mod_burningTimer.fetchingTimer then
 			return oldRegisterComponentActions(self, name)
+		end
+	end
+	self.UnregisterComponentActions = function(self, name)
+		if not _G.mod_burningTimer.fetchingTimer then
+			return oldUnregisterComponentActions(self, name)
 		end
 	end
 end) 
