@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased][]
 
+## [1.1.4][] - 2021-12-17
+
+### Fixed
+
+- Fix issue with Wolfgang Strong Gym
+
 ## 1.1.3 - 2021-11-01
 
 ### Added
@@ -58,4 +64,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 First release.
 
-[unreleased]: https://github.com/dstmodders/mod-burning-timer/compare/v1.1.3...HEAD
+[unreleased]: https://github.com/dstmodders/mod-burning-timer/compare/v1.1.4...HEAD
+[1.1.4]: https://github.com/dstmodders/mod-burning-timer/compare/v1.1.3...v1.1.4
